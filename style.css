@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    scroll-behavior: smooth; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: auto;;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav ul li a:active {
+    background-color: transparent;
+}
+
+nav ul li a {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#destaque .destaque-action .button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#destaque .destaque-action .button:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+#destaque .destaque-action .button:focus {
+    outline: none;
+}
+
+#servicos .servico {
+    margin-bottom: 30px;
+}
+
+#servicos .servico img {
+    width: 50%;
+    height: auto;
+    transition: transform 0.3s, border 0.3s;
+}
+
+#servicos .servico img:hover {
+    transform: scale(1.1);
+    border: 2px solid #007bff;
+}
+
+form {
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.redes-sociais li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#sobre .sobre-content {
+    display: flex;
+    align-items: center;
+}
+
+#sobre .sobre-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#sobre .sobre-image img {
+    max-width: 100%;
+    height: auto
+}
+
+#contato {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+#contato .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contato h2 {
+    text-align: left;
+}
+
+#contato form {
+    margin-top: 20px;
+}
+
+#contato form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contato form input,
+#contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#contato form button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#contato form button:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+#contato form button:focus {
+    outline: none;
+}

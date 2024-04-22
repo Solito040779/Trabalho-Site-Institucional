@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Mecânica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/usuario/Downloads/logo.png" alt="Logo da Oficina Mecânica">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre a Empresa</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="destaque">
+        <div class="container">
+            <div class="destaque-content">
+                <div class="destaque-text">
+                    <p>Procurando serviços confiaveis? <br> Melhor mecânica no centro de Erechim RS <br> Marque uma avaliação hoje mesmo com nosso formulário online</p>
+                </div>
+                <div class="destaque-action">
+                    <p>Telefone: (54) 9999-9999</p>
+                    <a href="#contato" class="button">Marque uma Avaliação</a>
+                </div>
+            </div>
+        </div>
+    <section id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h2>Vinte anos de experiência</h2>
+                    <p>Há duas décadas, nossa oficina mecânica tem sido um baluarte de exleência no seto automotimo. Com um legado de 20 anos de experiência e dedicação inabalável, construímos uma reputação sólida baseada na qualidade dos nossos serviços e no compromisso com a satisfação do cliete. Ao longo desses anos, temos nos km,antido na vanguarda da indústria, adaptando-nos ás mudanças tecnológicas e investindo constantemente na capacitação da nossa equipe. <br></p>
+                    <p>Nossos 20 anos de atuação no mercado não são apenas um testemunho da nossa longevidade, mas também um símbolo da nossa consistência em superar as expectativas dos nossos clientes. <br> Através de uma combinação de expertise técnica, atendimento personalizado e uma abordagem centrada no cliente, continuamos a ser a escolha preferida de muitos proprietários de veículos que busca confiança e tranquilidade quando se trata de cuidar de seus automóveis.</p>
+                </div>
+                <div class="sobre-image">
+                    <img src="/usuario/Downloads/sobre.png" alt="Imagem sobre a empresa">
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="servicos">
+    <div class="container">
+        <h2>Serviços</h2>
+        <div class="servico">
+            <img src="/usuario/Downloads/service-1.jpg" alt="Serviço 1">
+            <h3>Reparação de Freios</h3>
+            <p>Nossos serviços de reparação de freios são projetados para garantir a segurança e o desempenho do seu veículo. Nossa equipe altamente qualificada e experiente está equipada para lidar com uma variedade de problemas relacionados aos freios,<br> desde a substituição de pastilhas e discos até a reparação de sistemas hidráulicos.</p>
+        </div>
+        <div class="servico">
+            <img src="/usuario/Downloads/service-2.jpg" alt="Serviço 2">
+            <h3>Reparos de Suspensão</h3>
+            <p>Nossos serviços de reparo de suspensão garantem uma condução suave e estável. Com técnicos experientes e equipamentos avançados, estamos preparados para lidar com uma variedade de problemas de suspensão, desde substituições de amortecedores até reparos em barras estabilizadoras.</p>
+        </div>
+        <div class="servico">
+            <img src="/usuario/Downloads/service-3.jpg" alt="Serviço 3">
+            <h3>Verificação de Motor</h3>
+            <p>Nossa verificação de motor é um serviço abrangente projetado para garantir o desempenho e a confiabilidade do seu veículo. Utilizando tecnologia de ponta e conhecimento especializado, nossa equipe realiza uma análise detalhada do motor para identificar qualquer problema potencial. </p>
+        </div>
+        <div class="servico">
+            <img src="/usuario/Downloads/service-4.jpg" alt="Serviço 4">
+            <h3>Reparo de Transimissão</h3>
+            <p>Nosso serviço de reparo de transmissão é dedicado a manter a integridade e o desempenho do sistema de transmissão do seu veículo. Nossa equipe especializada realiza diagnósticos precisos e executa reparos meticulosos em componentes essenciais da transmissão.</p>
+        </div>
+    </div>
+</section>
+<section id="contato">
+    <div class="container">
+        <h2> Entre em Contato</h2>
+        <form action="enviar.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>Endereço: Rua Dom Pedro II, Nº485 - Erechim - Rio Grande do Sul</p>
+        <p>Telefone: (54) 9999-9999</p>
+        <p>Email: 101537@aluno.uricer.edu.br</p>
+        <ul class="redes-sociais">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
