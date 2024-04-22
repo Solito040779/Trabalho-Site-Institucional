@@ -1,13 +1,17 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-        var sections = $('section');
         var windowHeight = $(window).height();
+        var scrollTop = $(window).scrollTop();
 
-        sections.each(function() {
-            var positionFromTop = $(this).offset().top;
+        $('.fade').each(function() {
+            var position = $(this).offset().top;
 
-            if (positionFromTop - windowHeight < 0) {
-                $(this).addClass('active');
+            if (position < scrollTop + windowHeight) {
+                $(this).css('opacity', 1);
+                $(this).css('transform', 'translateY(0)');
+            } else {
+                $(this).css('opacity', 0);
+                $(this).css('transform', 'translateY(50px)');
             }
         });
     });

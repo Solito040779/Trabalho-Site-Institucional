@@ -239,3 +239,8 @@ footer p {
 #contato form button:focus {
     outline: none;
 }
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+}
